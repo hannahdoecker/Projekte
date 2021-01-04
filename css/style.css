@@ -1,0 +1,317 @@
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #586c2a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+.icons .col .s12 .m4{
+	width: 100% !important;
+	
+}
+
+
+.uppercase{
+	text-transform: uppercase;
+	
+}
+
+.text_center{
+	
+	text-align: center !important;
+}
+
+
+p:not(.different) {
+	
+	text-align: justify !important;
+	 hyphens: auto;
+	 margin-bottom: 10px;
+	 text-indent: 10px;
+	/* word-spacing: 0.1em; */
+}
+
+p:not(.different):first-letter {
+	
+	font-size: 1.7rem;
+	
+}
+
+ul {
+	
+	/*
+	text-align: left !important;
+	list-style-image: url(bilder/stern.png); 
+	line-height: 2em;
+	*/
+	
+}
+
+ul-li{
+	/* list-style-image: url(bilder/stern.png) !important; */
+	
+}
+
+li {
+	/* line-height: 2.5em; */
+	
+	
+  font-weight: 300 !important;
+  
+}
+
+.slider h3{
+	
+	text-shadow: 1px 1px 3px black; 
+
+}
+
+.slider h5{
+	
+	text-shadow: 1px 1px 2px black;
+	font-size: 28px;
+	text-align: left;	
+	
+}
+
+.slides img{
+	filter: brightness(90%);
+}
+
+
+
+
+.zeilen_height{
+	
+	text-align: left !important;
+	/*list-style-type: disc !important; 
+	list-style-image: url(bilder/stern.png);  */
+	line-height: 2em;
+
+	
+}
+
+.table_titles td{
+	vertical-align: center; 
+	width: 25em;
+	padding: 5px 5px;
+	border-collapse: collapse;
+}
+
+
+.radial_bg
+{	
+	background-color: rgba(188,230, 89, 0.2);	
+	margin-top: 20px; 
+	margin-bottom: 40px; 
+	padding-top: 70px; 
+	padding-bottom: 70px; 
+}
+
+
+.looper { 
+	animation: perspect 4s infinite linear; 
+	border: 4px dashed #bce659;
+}
+
+@keyframes perspect {
+   0% {transform:perspective(1200px) rotateY(0deg)}
+   25% {transform:perspective(1200px) rotateY(90deg)}
+   50% {transform:perspective(1200px) rotateY(180deg)}
+   75% {transform:perspective(1200px) rotateY(270deg)}
+   100% {transform:perspective(1200px) rotateY(360deg)}
+}
+
+.looper:hover{
+	animation:none;
+}
+
+
+
+.header_parallax{
+	
+	  
+  
+  background: #C33764;  
+    background: -webkit-linear-gradient(rgba(88,108,72, 0.3), rgba(188, 230, 89, 0.3));
+    background: linear-gradient(rgba(88,108,72, 0.3), rgba(188, 230, 89, 0.3)); 
+}
+
+
+.somm{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	padding-left: 22px;
+	 filter: drop-shadow( 3px 3px 4px rgba(0, 0, 0, .7));
+	
+}
+
+
+
+.highl{
+	
+	font-family: 'Oxygen', sans-serif !important;
+	font-size: 16;
+	color: #586c2a !important;
+	 transition: all .2s ease-in-out;
+	/* text-shadow: 1px 1px 2px #000;" */
+}
+
+.highl:hover{
+	
+	background-color: #d5ed9d !important;
+	 transform: scale(1.1);
+}
+
+
+.nav_link a{
+	font-weight: 400;
+}
+
+.container_nav{
+	width: 70%;
+}
+
+
+.img_three img{
+	
+	 transition: all .2s ease-in-out;
+	 z-index: 1;
+}
+
+.img_three img:hover{
+	
+	transform: scale(1.7);
+	z-index: 99;
+}
+
+
+.abseits{
+	text-align: center; 
+	vertical-align: center; 
+	width: 25em;
+}
+
+.text_lorem {
+	 display: block; 
+	margin-top: 30px;
+  
+  
+  column-count: 2;
+ column-width: 300px;
+ column-gap: 4em;
+ column-rule: 1px solid #ddd;
+  line-height: 1.5em;
+
+	
+}
+
+
+.text_lorem p{
+	text-align: justify; 
+	hyphens: auto;
+	margin-block-start: 0em !important;
+
+
+}
+
+
+.redezeichen{
+	
+	font-size: 2rem;
+}
+
+	
+
+blockquote {
+    font-family: Georgia, serif;
+	letter-spacing: 0.05em;
+    font-size: 18px;
+    font-style: italic;
+    width: 700px;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
+
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+.chefin{
+	border-radius: 50%;
+	border: 3px solid #bce659;
+	height: 120px;
+}
+
+
+.svg_schrift text:hover {
+	fill: rgb(0,230,0) !important;
+}
+
+
+
+
